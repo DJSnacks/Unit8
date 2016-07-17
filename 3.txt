@@ -1,0 +1,3 @@
+3. 
+a. Nothing needs to change as the JS will begin on the click of the item with the ID "f_to_c" regardless of how this button is made.
+b. The button element as opposed to the input has the advantage of allowing HTML elements to be placed inside them. For example, you can insert images, gifs and  even table elements to space elements properly within a button.

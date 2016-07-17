@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="UTF-8"/>
+  <title>Question 5</title>
+ </head>
+<body>
+ <h1>Tip Calculator</h1>
+ <p>
+	Bill Subtotal: <input type="number" id="bill"/> 
+	<p>Tip%: <input type="number" id="tip"/></p> 
+	<input type="button" id="calculate" value="Calculate" onclick="tip()" />
+</p>
+
+<p id="result"></p>
+<script>
+function tip(){
+var bill = parseFloat(document.getElementById("bill").value);
+var tip = parseFloat(document.getElementById("tip").value);
+alert("Your total is " + parseFloat(bill + bill * (tip/100))); 
+} 	
+ </script>
+</body>
+</html>
